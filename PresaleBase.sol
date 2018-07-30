@@ -1,6 +1,6 @@
 pragma solidity ^0.4.18;
 import 'zeppelin-solidity/contracts/ownership/HasNoEther.sol';
-import './../STL.sol';
+import './STL.sol';
 
 contract PresaleBase is HasNoEther {
     uint constant internal MAX_PURCHASE_AMOUNT_PER_REQUEST = 20;

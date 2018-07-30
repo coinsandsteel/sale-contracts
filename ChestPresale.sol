@@ -1,5 +1,5 @@
 pragma solidity ^0.4.23;
-import './../Random.sol';
+import './Random.sol';
 import './PresaleBase.sol';
 
 // Support erc721 metadata to transfer data to loomchain

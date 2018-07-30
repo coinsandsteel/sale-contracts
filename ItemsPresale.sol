@@ -1,5 +1,5 @@
 pragma solidity ^0.4.18;
-import './../Random.sol';
+import './Random.sol';
 import './PresaleBase.sol';
 
 contract ItemsPresale is PresaleBase, Random {
