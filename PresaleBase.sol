@@ -130,7 +130,7 @@ contract PresaleBase is HasNoEther {
             currentPrice += getPriceIncrease(lotId, totalSold_);
         }
 
-        for (i = 0; i < 10; ++i) {
+        for (i = 0; i < lookAhead; ++i) {
             guaranteeSurcharge += getPriceIncrease(lotId, totalSold_);
         }
     }
