@@ -70,7 +70,7 @@ contract PresaleBase is HasNoEther {
         lotPrice[id].currentPrice = price;
     }
 
-    event TokensMinted(address user, uint tokens);
+    event TokensMinted(address indexed user, uint tokens);
 
     function mintTokens(address receiver, uint ethTotal) internal {
         uint stl = ethTotal / TOKEN_CONVERSION_RATE;
